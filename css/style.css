@@ -1,0 +1,40 @@
+body {
+  background-color: azure;
+  padding: 5% 10%;
+  font-family: helvetica;
+  font-size: larger;
+  border-radius: 8px;
+}
+
+h1 {
+  padding: 8% 2%;
+  color: navy;
+  background-color: aquamarine;
+}
+
+h2 {
+  padding: 2% 2%;
+  color: blue;
+  background-color: aquamarine;
+}
+
+h3 {
+  padding: 5% 2%;
+  color: blue;
+}
+
+p {
+  line-height: 2em;
+  padding: 4% 4%;
+  font-size: medium;
+  color: navy;
+}
+
+main {
+  margin: 2% 0%;
+  background-color: aliceblue;
+}
+
+footer {
+  background-color: aquamarine;
+}
