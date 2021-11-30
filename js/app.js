@@ -1,3 +1,5 @@
+'use strict';
+
 function welcome() {
   const user = prompt('Welcome! What is your name?');
   // console.log(user);
