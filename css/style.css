@@ -23,14 +23,17 @@ h3 {
   color: blue;
 }
 
-p {
-  line-height: 2em;
-  padding: 4% 4%;
+ol, ul {
+  padding: 0% 8%;
+}
+
+li {
+  line-height: 1.5em;
   font-size: medium;
   color: navy;
 }
 
-main {
+main, ol, ul {
   margin: 2% 0%;
   background-color: aliceblue;
 }

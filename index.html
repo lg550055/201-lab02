@@ -8,12 +8,17 @@
   </head>
   <body>
     <header>
-      <h1>About Me Guessing Game</h1>
-      <h3><script>document.write('Welcome, '+welcome())</script></h3>
+      <h1>About Me: Guessing Game</h1>
+      <h3><script>document.write(`Welcome, ${welcome()}!`)</script></h3>
     </header>
     <main>
+      <hr>
       <h2>Quick Bio Facts</h2>
-      <p><script>qs()</script></p>
+      <ul><script>qs()</script></ul>
+      <br>
+      <hr>
+      <h2>Top 10 dev stuff</h2>
+      <ol><script>topTen()</script></ol>
       <br>
     </main>
     <footer>
