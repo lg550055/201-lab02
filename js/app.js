@@ -7,9 +7,7 @@ let c = 0;
 function welcome() {
   const user = prompt('Welcome! What is your name?');
   alert('Your name is ' + user);
-  document.write("<h3>"+`Welcome, ${user}!`+"</h3>");
-  document.write("<hr>");
-  document.write("<h2>Quick Bio Facts</h2>");
+  document.write(`Welcome, ${user}!`);
 }
 
 function bio() {
@@ -35,7 +33,6 @@ function bio() {
 
 function guessNum() {
   const n = Math.floor((Math.random()*10));
-  // console.log(n);
   alert('Try to guess a number between 0-9 in 4 attempts');
   for (i=0; i<4; i++) {
     q = prompt(`Attempt ${i+1}, what do you think the number is?`);
@@ -51,8 +48,6 @@ function guessNum() {
 
 function topTen() {
   let stuff = ['while','includes','length','sort','for','map','filter','reduce','this','try'];
-  document.write("<br>");
-  document.write("<hr>");  
   alert('Try to guess an item in my top 10 JS commands in 6 attempts');
   let match = '';
   for (i=0; i<6; i++) {
@@ -79,5 +74,4 @@ function topTen() {
     document.write("<li>"+stuff[i]+"</li>");
   };
   document.write("<ol>");
-  document.write("<br>");
 }

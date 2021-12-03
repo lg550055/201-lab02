@@ -1,51 +1,50 @@
 body {
   background-color: azure;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 5% 10%;
-  color: blue;
+  color: coral;
   font-size: larger;
   font-family: helvetica;
-  border-radius: 8px;
+  text-align: center;
 }
-
+button {
+  margin: 1em;
+  border: none;
+  color: navy;
+  background-color: azure;
+}
+section {
+  background-color: aquamarine;
+  font-size: 1.1em;
+  padding: 2em 0;
+}
+div {
+  text-align: left;
+  margin: 1.5em auto;
+  border:aquamarine 2px solid;
+  padding: 2%;
+  width: 60%;
+  max-width: 500px;
+}
 h1 {
-  padding: 8% 2%;
-  color: azure;
-  font-size: x-large;
-  text-shadow: 0 0 20px blue;
-  background-color: aquamarine;
+  font-size: 1.2em;
+  padding: 2em 0 0em;
 }
-
 h2 {
-  padding: 3% 2%;
-  font-size: 0.9em;
-  background-color: aquamarine;
+  text-align: center;
+  padding: 1em 0;
 }
-
-h3 {
-  padding: 5% 2%;
-}
-
 ol, ul {
-  padding: 0% 8%;
+  margin: 0 7%;
 }
-
 ol {
   column-count: 2;
 }
-
 li {
-  line-height: 1.5em;
-  font-size: medium;
+  line-height: 1.4em;
+  font-size: 0.9em;
   color: navy;
 }
-
-main, ol, ul {
-  margin: 2% 0%;
-  background-color: aliceblue;
-}
-
 footer {
+  margin-top: 3%;
+  padding: 5% 0%;
   background-color: aquamarine;
 }
